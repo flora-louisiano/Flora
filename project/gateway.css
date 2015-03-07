@@ -1,0 +1,53 @@
+
+body
+{	
+	font-family: Edwardian Script ITC;
+	color: rgba(255,255,255,0.8);
+	background-attachment: fixed;
+	background-color: rgb(16,80,128);
+	background-image: url("css/gateway.jpg");
+	background-size: 100% 100%;
+}
+
+img {
+    opacity: 0.8;
+	border-radius: 10px;
+	padding:2px;
+	border:2px solid rgba(255,255,255,0.8);
+}
+
+.img2 {
+	opacity: 1;
+	border-radius: 10px;
+	padding:2px;
+	border:2px solid rgba(255,255,255,0.8);
+}
+
+.welcome
+{
+	font-size: 900%;
+	text-align: center;
+	color: rgba(0,0,0,0.9);
+}
+
+.box { 
+	width: 400px; 
+	height: 212px;
+	padding: 0px; 
+	border-radius: 10px;
+}
+
+.box:hover { 
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc; 
+}
+
+#container {
+	height: 300px;
+	width: 500px;
+	margin-left: 530px;
+	margin-right: auto;
+	margin-top:125px; 
+	color: rgba(255,255,255,0.8);
+}
