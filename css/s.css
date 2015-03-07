@@ -86,6 +86,13 @@ td.paragraph
 	font-size: 19px;
 }
 
+.title {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 48px;
+	text-align: center;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -111,6 +118,9 @@ a:active {
 	height: 228px;
 	padding: 0px; 
 	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .box:hover { 
