@@ -136,3 +136,9 @@ a:active {
 	bottom:0;
 	left:0;
 }
+
+ .sticky {
+	display: none;
+	height: 10px;
+	margin-top: 10px;
+}
