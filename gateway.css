@@ -35,6 +35,8 @@ img {
 	height: 212px;
 	padding: 0px; 
 	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .box:hover { 
@@ -46,7 +48,7 @@ img {
 #container {
 	height: 300px;
 	width: 500px;
-	margin-left: 530px;
+	margin-left: auto;
 	margin-right: auto;
 	margin-top:125px; 
 	color: rgba(255,255,255,0.8);
