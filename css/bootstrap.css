@@ -188,20 +188,38 @@ th {
 }
 
 .pquote {
-
-    width: 300px;
+    float: right;
+    width: 500px;
+    background-color: rgba(0,0,0,0);
     color: white;
     font-size: 26px;
     line-height: 0.9;
     font-style: italic;
-    padding: 5px;
+    padding: 2px;
 }
+
 
 blockquote {
     margin: 0;
 }
 
 .pquote p:first-letter {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.pquote2 {
+    float: right;
+    width: 300px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 2px;
+}
+
+.pquote2 p:first-letter {
     font-size: 39px;
     font-weight: bold;
 }
@@ -1605,7 +1623,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-.row {
+ {
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -6675,8 +6693,3 @@ cursor: pointer;
   line-height: 200px;
   border-radius: 100%;
 }
-
-.navactive {
-	background-color: #fff;
-	border-radius: 4px;
-	}

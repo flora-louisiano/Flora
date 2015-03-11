@@ -34,20 +34,24 @@
 				<div class="jumbotron">
 				<div class="container">	
 					     <ul class="row">
-							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/g4.jpg"></li>
-							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/g5.jpg"></li>
-							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/History.jpg"></li>
-							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/Culture.jpg"></li>
 							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="css/bg.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/e1.jpg"></li>
 							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/e2.jpg"></li>
 							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/e3.jpg"></li>
 							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/e4.jpg"></li>
 							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/c1.jpg"></li>
 							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/c2.jpg"></li>
-							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/g1.jpg"></li>
-							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/g2.jpg"></li>
-							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/g3.jpg"></li>
-							
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/Events.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/History.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/Culture.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/img.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/img1.jpg"></li>
+						</ul>
+						<ul class="row">
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/img2.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/img3.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/img4.jpg"></li>
+							<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="img-responsive" src="img/img5.jpg"></li>							
 						</ul>
 				</div>
 				</div>
@@ -65,7 +69,7 @@
 		
 		<script>
        $(document).ready(function(){
-           $('li img').on('mouseover',function(){
+           $('li img').on('click',function(){
                 var src = $(this).attr('src');
                 var img = '<img src="' + src + '" class="img-responsive"/>';
                 $('#myModal').modal();

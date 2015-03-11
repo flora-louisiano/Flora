@@ -1,0 +1,49 @@
+
+body
+{	
+	font-family: Edwardian Script ITC;
+	color: rgba(255,255,255,0.8);
+	background-attachment: fixed;
+	background-color: rgb(16,80,128);
+	background-image: url("gateway.jpg");
+	background-size: 100% 100%;
+}
+
+img {
+    opacity: 0.8;
+	border-radius: 10px;
+	padding:2px;
+	border:2px solid rgba(255,255,255,0.8);
+}
+
+#container {
+	height: 300px;
+	width: 500px;
+	margin-left: 450px;
+	margin-right: auto;
+	margin-top: 30px; 
+	color: rgba(255,255,255,0.8);
+}
+
+.welcome
+{
+	width: 700px;
+	height: 665px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 10px;
+	color: rgba(0,0,0,0);
+}
+
+.box { 
+	width: 608px; 
+	height: 223px;
+	padding: 0px; 
+	border-radius: 10px;
+}
+
+.box:hover { 
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc; 
+}
+
