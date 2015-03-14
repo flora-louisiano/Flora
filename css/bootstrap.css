@@ -217,13 +217,10 @@ blockquote {
     line-height: 0.9;
     font-style: italic;
     padding: 2px;
-	background-image:url("bgquote.png");
-	border-radius: 30px;
-	margin: 10px;
 }
 
 .pquote3 {
-    float: left;
+    float: right;
     width: 300px;
     background-color: rgba(0,0,0,0);
     color: white;
