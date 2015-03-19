@@ -187,12 +187,12 @@ th {
   padding: 0;
 }
 
-.pquote {
-    float: right;
+.pquote{
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	float: right;
     width: 500px;
-    background-color: rgba(0,0,0,0);
     color: white;
-    font-size: 26px;
     line-height: 0.9;
     font-style: italic;
     padding: 2px;
@@ -210,11 +210,21 @@ blockquote {
 
 .pquote2 {
 	display: inline-block;
-    float: right;
-    width: 300px;
-    background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+	float: right;
+    width: 320px;
     color: white;
-    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 2px;
+}
+
+.pquote2l {
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	float: left;
+    width: 320px;
+    color: white;
     line-height: 0.9;
     font-style: italic;
     padding: 2px;
@@ -236,6 +246,11 @@ blockquote {
 }
 
 .pquote2 p:first-letter {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.pquote2l p:first-letter {
     font-size: 39px;
     font-weight: bold;
 }
